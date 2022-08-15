@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F5FD887F28AAB83F00C01C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD887E28AAB83F00C01C5C /* AppDelegate.swift */; };
 		F5FD888128AAB83F00C01C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD888028AAB83F00C01C5C /* SceneDelegate.swift */; };
-		F5FD888328AAB83F00C01C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD888228AAB83F00C01C5C /* ViewController.swift */; };
+		F5FD888328AAB83F00C01C5C /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD888228AAB83F00C01C5C /* ConversionViewController.swift */; };
 		F5FD888628AAB83F00C01C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FD888428AAB83F00C01C5C /* Main.storyboard */; };
 		F5FD888828AAB84100C01C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FD888728AAB84100C01C5C /* Assets.xcassets */; };
 		F5FD888B28AAB84100C01C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FD888928AAB84100C01C5C /* LaunchScreen.storyboard */; };
+		F5FD889328AAD5CE00C01C5C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD889228AAD5CE00C01C5C /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5FD887B28AAB83F00C01C5C /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FD887E28AAB83F00C01C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5FD888028AAB83F00C01C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5FD888228AAB83F00C01C5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5FD888228AAB83F00C01C5C /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		F5FD888528AAB83F00C01C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5FD888728AAB84100C01C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5FD888A28AAB84100C01C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5FD888C28AAB84100C01C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FD889228AAD5CE00C01C5C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F5FD887E28AAB83F00C01C5C /* AppDelegate.swift */,
 				F5FD888028AAB83F00C01C5C /* SceneDelegate.swift */,
-				F5FD888228AAB83F00C01C5C /* ViewController.swift */,
+				F5FD888228AAB83F00C01C5C /* ConversionViewController.swift */,
+				F5FD889228AAD5CE00C01C5C /* MapViewController.swift */,
 				F5FD888428AAB83F00C01C5C /* Main.storyboard */,
 				F5FD888728AAB84100C01C5C /* Assets.xcassets */,
 				F5FD888928AAB84100C01C5C /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FD888328AAB83F00C01C5C /* ViewController.swift in Sources */,
+				F5FD888328AAB83F00C01C5C /* ConversionViewController.swift in Sources */,
 				F5FD887F28AAB83F00C01C5C /* AppDelegate.swift in Sources */,
 				F5FD888128AAB83F00C01C5C /* SceneDelegate.swift in Sources */,
+				F5FD889328AAD5CE00C01C5C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
