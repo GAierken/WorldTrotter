@@ -22,7 +22,7 @@ class MapViewController: UIViewController {
         let standardString = NSLocalizedString("Standard", comment: "Standard map view")
         let hybridString = NSLocalizedString("Hybrid", comment: "Hybrid map view")
         let satelliteString = NSLocalizedString("Satellite", comment: "Satellite map view")
-        let segmentedControl = UISegmentedControl(items: [standardString, hybridString, standardString])
+        let segmentedControl = UISegmentedControl(items: [standardString, hybridString, satelliteString])
         segmentedControl.backgroundColor = .systemBackground
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
